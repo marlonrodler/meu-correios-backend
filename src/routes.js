@@ -6,6 +6,6 @@ const SearchController = require('./controllers/SearchController');
 
 // Inciando a Rota
 //routes.get("/search", SearchController.index);
-routes.post(SearchController.search);
+routes.post("/search",SearchController.search);
 
 module.exports = routes;
